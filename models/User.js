@@ -8,6 +8,10 @@ const UserSchema = new Schema({
     password: {
         type: String,
         required: true
+    },
+    activo: {
+        type: Boolean,
+        default: true
     }
 });
 
